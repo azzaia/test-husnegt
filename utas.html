@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <title>Профайл хуудас</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f0f2f5;
+        }
+        .container {
+            background-color: #44bcf3;
+            border: 1px solid white;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        .top-buttons {
+            padding: 10px;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .top-buttons a {
+            text-align: center;
+        }
+        .top-buttons button {
+            width: 100%;
+            padding: 10px;
+            background-color: #44bcf3;
+            border: none;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            color: black;
+        }
+
+        .profile {
+            border-bottom: 1px solid white;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 10px;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+        .info {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .info ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            text-align: left;
+            display: inline-block;
+        }
+        .content {
+            padding: 30px;
+            text-align: center;
+            background-color: white;
+            min-height: 150px;
+        }
+        .footer {
+            text-align: center;
+            background-color: #44bcf3;
+            color: black;
+            font-weight: bold;
+            padding: 12px;
+        }
+        @media (max-width: 500px) {
+            .top-buttons {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="top-buttons">   
+            <a href="#"><button>Нүүр хуудас</button></a>
+            <a href="images.jpg"><button>Зурагнууд</button></a>
+            <a href="https://youtu.be/o_1aF54DO60?si=AhrW3d4zQ_qucoI4"><button>Бичлэгүүд</button></a>
+            <a href="https://maps.app.goo.gl/8wBKv8m213wTYGc5A"><button>Газрын зураг</button></a>
+        </div>
+        <div class="profile">
+            <div class="profile-pic">
+                <img src="images.jpg" alt="Профайл зураг">
+            </div>
+            <div class="info">       
+                <p><strong>Хувийн мэдээлэл</strong></p>
+                <ul>
+                    <li>Нэр: Аззаяа</li>
+                    <li>Нас: 17</li>
+                    <li>Мэйл: zy@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Агуулга</h2>
+            <p>Сайн байна уу? Намайг Аззаяа гэдэг. Би Хөвсгөл аймгийн Мөрөн суманд амьдардаг.</p>
+        </div>
+        <div class="footer">
+            Хаяг: Хөвсгөл аймаг, Мөрөн сум, 4-р хороо
+        </div>
+    </div>
+
+</body>
+</html>

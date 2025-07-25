@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <title>Профайл хуудас</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+        }
+        .tabs {
+             background-color: #44bcf3;
+             padding: 5px 10px;
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+             gap: 10px;
+             max-width: 1380px; 
+             margin: 0 auto;    
+        }
+        .tabs a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .tabs button {
+            padding: 10px 16px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            max-width: 1400px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        td {
+            border: 1px solid #ddd;
+            padding: 20px;
+            vertical-align: top;
+        }
+        .left-collumn {
+            width: 35%;
+            background-color: #f6f7f8;
+        }
+        .left-collumn img {
+            width: 100%;
+            height: auto;
+            max-width: 200px;
+            display: block;
+            margin: 0 auto 15px;
+        }
+        .left-collumn ul {
+            padding-left: 20px;
+        }
+        .footer {
+            text-align: center;
+            background-color: #44bcf3;
+            font-weight: bold;
+            padding: 10px;
+        }
+        @media screen and (max-width: 768px) {
+            table, tr, td {
+                display: block;
+                width: 100%;
+            }
+            .left-collumn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tabs">
+        <a href="file:///C:/Users/STUDENT/Desktop/zoljargal/az/gpt.html"><button>Нүүр хуудас</button></a>
+        <a href="images.jpg"><button>Зурагнууд</button></a>
+        <a href="https://youtu.be/o_1aF54DO60?si=AhrW3d4zQ_qucoI4"><button>Бичлэгүүд</button></a>
+        <a href="https://maps.app.goo.gl/8wBKv8m213wTYGc5A"><button>Газрын зураг</button></a>
+    </div>
+
+    <table>
+        <tr>
+            <td class="left-collumn" rowspan="3">
+                <img src="images.jpg" alt="Профайл зураг">
+                <p><strong>Хувийн мэдээлэл</strong></p>
+                <ul>
+                    <li>Нэр: Аззаяа</li>
+                    <li>Нас: 17</li>
+                    <li>Мэйл: zy@gmail.com</li>
+                </ul>
+            </td>
+            <td>
+                <h2>Агуулга</h2>
+                <p>Сайн байна уу? Намайг Аззаяа гэдэг. Би Хөвсгөл аймгийн Мөрөн суманд амьдардаг.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer">Хаяг:Хөвсгөл аймаг Мөрөн сум 4-р хороо*</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+           
